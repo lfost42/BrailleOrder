@@ -9,4 +9,4 @@ This web application will allow a braillist to paste their special symbols (grou
 - Alert for a symbol includes a character that is not ASCII Braille 
 - Alert when a symbol is not required to be included in the Special Symbols Page.
 - Alert that a symbol is not in the Known Symbols database (see http://www.iceb.org/symbsc2.html).
--> a request form to add the symbol to the "known symbols" database that they were alerted about.
+> a request form to add the symbol to the "known symbols" database that they were alerted about.
