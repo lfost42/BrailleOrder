@@ -8,5 +8,5 @@ This web application will allow a braillist to paste their list of special symbo
 # Other Features
 - Alert for a symbol includes a character that is not ASCII Braille 
 - Alert when a symbol is not required to be included in the Special Symbols Page.
-- Alert that a symbol is not in the Known Symbols database (see http://www.iceb.org/symbsc2.html).
-  - a way to request the alerted symbol be added to the "known symbols" database.
+- Alert that a symbol is not in the Known Symbols database as scraped from http://www.iceb.org/symbsc2.html
+  - an option to request the alerted symbol be added to the "known symbols" database.
