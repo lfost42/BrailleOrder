@@ -25,8 +25,8 @@ namespace BrailleOrder
 
                 for (int i = 0; i < max; i++)
                 {
-                    int indexX = charOrder.IndexOf(x[i].ToString(), StringComparison.InvariantCultureIgnoreCase);
-                    int indexY = charOrder.IndexOf(y[i].ToString(), StringComparison.InvariantCultureIgnoreCase);
+                    int indexX = charOrder.IndexOf(x[i].ToString());
+                    int indexY = charOrder.IndexOf(y[i].ToString());
                     if (indexX != indexY) return (indexX - indexY);
                 }
                 return 0;

@@ -1,0 +1,13 @@
+/Applications/Repos/BrailleOrder/BrailleOrder/bin/Debug/netcoreapp3.1/BrailleOrder.deps.json
+/Applications/Repos/BrailleOrder/BrailleOrder/bin/Debug/netcoreapp3.1/BrailleOrder.runtimeconfig.json
+/Applications/Repos/BrailleOrder/BrailleOrder/bin/Debug/netcoreapp3.1/BrailleOrder.runtimeconfig.dev.json
+/Applications/Repos/BrailleOrder/BrailleOrder/bin/Debug/netcoreapp3.1/BrailleOrder.dll
+/Applications/Repos/BrailleOrder/BrailleOrder/bin/Debug/netcoreapp3.1/BrailleOrder.pdb
+/Applications/Repos/BrailleOrder/BrailleOrder/obj/Debug/netcoreapp3.1/BrailleOrder.csproj.AssemblyReference.cache
+/Applications/Repos/BrailleOrder/BrailleOrder/obj/Debug/netcoreapp3.1/BrailleOrder.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/Repos/BrailleOrder/BrailleOrder/obj/Debug/netcoreapp3.1/BrailleOrder.AssemblyInfoInputs.cache
+/Applications/Repos/BrailleOrder/BrailleOrder/obj/Debug/netcoreapp3.1/BrailleOrder.AssemblyInfo.cs
+/Applications/Repos/BrailleOrder/BrailleOrder/obj/Debug/netcoreapp3.1/BrailleOrder.csproj.CoreCompileInputs.cache
+/Applications/Repos/BrailleOrder/BrailleOrder/obj/Debug/netcoreapp3.1/BrailleOrder.dll
+/Applications/Repos/BrailleOrder/BrailleOrder/obj/Debug/netcoreapp3.1/BrailleOrder.pdb
+/Applications/Repos/BrailleOrder/BrailleOrder/obj/Debug/netcoreapp3.1/BrailleOrder.genruntimeconfig.cache
