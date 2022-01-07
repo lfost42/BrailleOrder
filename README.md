@@ -13,5 +13,8 @@ This web application will allow a braillist to paste their list of special symbo
 - Alert when a symbol is not required to be included in the Special Symbols Page.
 - Alert that a symbol is not in the Known Symbols database as scraped from http://www.iceb.org/symbsc2.html
   - an option to request the alerted symbol be added to the "known symbols" database.
+- Option to report an incorrect symbol or other issue.
+- Issue tracking, user proposed-fixes.
+- User-proposed additions to the database of "known symbols"
 
 \* characters without braille font: abcdefghijklmnopqrstuvxyz&=(!)*<%?:$]\\[w1234567890/+#>'-@^_\".;,"
