@@ -11,6 +11,7 @@ namespace BrailleOrder
 
             string charOrder = "abcdefghijklmnopqrstuvxyz&=(!)*<%?:$]\\[w1234567890/+#>'-@^_\".;,";
 
+            //input ToLower() just in case
             words.Add("<?");
             words.Add(":w");
             words.Add("?");

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Applications/Repos/BrailleOrder/BrailleOrder/BrailleOrder.csproj",
+      "projectUniqueName": "/Users/lynda/Desktop/repo/BrailleSort/BrailleOrder/BrailleOrder.csproj",
       "projectName": "BrailleOrder",
-      "projectPath": "/Applications/Repos/BrailleOrder/BrailleOrder/BrailleOrder.csproj",
+      "projectPath": "/Users/lynda/Desktop/repo/BrailleSort/BrailleOrder/BrailleOrder.csproj",
       "packagesPath": "/Users/lynda/.nuget/packages/",
-      "outputPath": "/Applications/Repos/BrailleOrder/BrailleOrder/obj/",
+      "outputPath": "/Users/lynda/Desktop/repo/BrailleSort/BrailleOrder/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lynda/.config/NuGet/NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }
