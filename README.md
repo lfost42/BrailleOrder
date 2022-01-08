@@ -1,6 +1,6 @@
-# BrailleOrder
+# BrailleSort
 
-![My App](./order.png)
+![My App](./app.png)
 
 Braille transcribers are required to sort a list of symbols into braille order for the "Special Symbols Page" in each book. It is a tedious task which is done by hand using the following reference chart. Note: ASCII-braille is viewed as braille fonts in braille transcription programs.*
 
