@@ -1,16 +1,9 @@
-﻿<Properties StartupConfiguration="{EB373657-577F-4959-BB28-443B9C6D9269}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BrailleOrder/Program.cs">
-    <Files>
-      <File FileName="BrailleOrder/Program.cs" Line="36" Column="10" />
-    </Files>
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="BrailleOrder" expanded="True">
-            <Node name="BrailleSort" expanded="True" selected="True">
-              <Node name="Dependencies" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="BrailleSort" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

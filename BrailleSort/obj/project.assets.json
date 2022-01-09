@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lynda/Desktop/repo/BrailleSort/BrailleOrder/BrailleOrder.csproj",
-      "projectName": "BrailleOrder",
-      "projectPath": "/Users/lynda/Desktop/repo/BrailleSort/BrailleOrder/BrailleOrder.csproj",
+      "projectUniqueName": "/Users/lynda/Desktop/repo/BrailleSort/BrailleSort/BrailleSort.csproj",
+      "projectName": "BrailleSort",
+      "projectPath": "/Users/lynda/Desktop/repo/BrailleSort/BrailleSort/BrailleSort.csproj",
       "packagesPath": "/Users/lynda/.nuget/packages/",
-      "outputPath": "/Users/lynda/Desktop/repo/BrailleSort/BrailleOrder/obj/",
+      "outputPath": "/Users/lynda/Desktop/repo/BrailleSort/BrailleSort/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lynda/.config/NuGet/NuGet.Config"
