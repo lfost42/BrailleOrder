@@ -1,5 +1,7 @@
 # BrailleSort
 
+This is a project I've been wanting to put together for some time. I programmed the sorting logic and plan to implement the below plans once I am able. 
+
 ![My App](./app.png)
 
 A web application to help braille transcribers format the Special Symbols page. 
