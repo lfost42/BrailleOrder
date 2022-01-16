@@ -4,15 +4,47 @@ This is a project I've been wanting to put together for some time. I programmed 
 
 ![My App](./app.png)
 
-A web application to help braille transcribers format the Special Symbols page. 
+A tool to help braille transcribers format the Special Symbols page. 
 
-# Planned Features
-- Alert for when a symbol includes a character that is not ASCII Braille 
-- Alert when a symbol is not required to be included in the Special Symbols Page.
-- Alert that a symbol is not in the Known Symbols database as scraped from http://www.iceb.org/symbsc2.html
-  - an option to request the alerted symbol be added to the "known symbols" database.
-- Option to report an incorrect symbol or other issue.
-- Issue tracking, user proposed-fixes.
-- User-proposed additions to the database of "known symbols"
+Role based access allows users to report issues or file requests to update or modify the app/database. Implements identity and role based access/rendering. 
+
+## WALKTHROUGH
+
+- Main sorting algorithm
+- Alert when a symbol includes a character that is not ASCII Braille
+- Service to scrape Known Symbols from http://www.iceb.org/symbsc2.html and check it against the current database
+- Alert when a symbol was not found in the database
+	- option to request the alerted symbol be added to the database
+
+## OPEN REQUIREMENTS
+
+- user login/registration for creating/reporting issues
+- proposed modifications to application
+- assign issues to other admins for research purposes
+
+## USER INTERFACE
+
+- Landing app
+- Login option
+- Search Symbols
+- Export a json or css of the symbols database
+
+- profile management
+- role management
+- issue management
+
+## LOGIC DESIGN
+
+- identity access
+- role based security
+- tracking for issues
+
+## DATA DESIGN
+
+- user - str
+- issues - list<issue>
+	- priority - enum
+	- status - str
+	- date - datetime
 
 \* ASCII-braille characters in 'braille order': abcdefghijklmnopqrstuvxyz&=(!)*<%?:$]\\[w1234567890/+#>'-@^_\".;,"
