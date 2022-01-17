@@ -24,10 +24,12 @@ Role based access allows users to report issues or file requests to update or mo
 
 ## USER INTERFACE
 
-- Landing app
+- Landing page
 - Login option
 - Search Symbols
-- Export a json or css of the symbols database
+- Area to paste a list of special symbols for sort
+- Sort button
+- Option to export a csv of the symbols database
 
 - profile management
 - role management
