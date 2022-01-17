@@ -10,11 +10,11 @@ Role based access allows users to report issues or file requests to update or mo
 
 ## WALKTHROUGH
 
-- Main sorting algorithm
+- The main feature that accepts a list of ASCII braille characters and returns the list sorted in braille order
 - Alert when a symbol includes a character that is not ASCII Braille
-- Service to scrape Known Symbols from http://www.iceb.org/symbsc2.html and check it against the current database
 - Alert when a symbol was not found in the database
 	- option to request the alerted symbol be added to the database
+- Service to scrape Known Symbols from http://www.iceb.org/symbsc2.html and check it against the current database
 
 ## OPEN REQUIREMENTS
 
