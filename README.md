@@ -10,7 +10,7 @@ Role based access allows users to report issues or file requests to update or mo
 
 ## WALKTHROUGH
 
-- The main feature that accepts a list of ASCII braille characters and returns the list sorted in braille order
+- The main feature accepts a list of ASCII braille characters and returns the list sorted in braille order
 - Alert when a symbol includes a character that is not ASCII Braille
 - Alert when a symbol was not found in the database
 	- option to request the alerted symbol be added to the database
