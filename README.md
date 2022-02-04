@@ -11,6 +11,7 @@ Role based access allows users to report issues or file requests to update or mo
 ## WALKTHROUGH
 
 - The main feature accepts a list of ASCII braille characters and returns the list sorted in braille order
+- API that accepts requests from the app and communicates with the database. 
 - Alert when a symbol includes a character that is not ASCII Braille
 - Alert when a symbol was not found in the database
 	- option to request the alerted symbol be added to the database
