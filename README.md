@@ -55,3 +55,5 @@ Other features
 	- date - datetime
 
 \* ASCII-braille characters in 'braille order': abcdefghijklmnopqrstuvxyz&=(!)*<%?:$]\\[w1234567890/+#>'-@^_\".;,"
+
+There are currently over 510 known symbols listed in the ICEB database http://www.iceb.org/symbsc2.html
