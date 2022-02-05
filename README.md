@@ -4,16 +4,14 @@ This is a project I've been wanting to put together for some time. I programmed 
 
 ![My App](./app.png)
 
-A app that helps braille transcribers format the Special Symbols page. 
-
-Identity and role based access allows users to file requests to update or modify the special symbols database. Admins may approve or deny the request after appropriate research. 
+A app that helps braille transcribers format the Special Symbols page. Identity and role based access allows users to file requests to update or modify the special symbols database. Admins may approve or deny the request after appropriate research. 
 
 ## WALKTHROUGH
 
 Minimal Viable Product
 
 - An app that accepts a list of ASCII braille characters and returns the list sorted in braille order
-- API that accepts requests from the app and communicates with the database. 
+- API accepts requests from the app and communicates with the database. 
 
 Other features
 - Alert user when a symbol includes a character that is not ASCII Braille
