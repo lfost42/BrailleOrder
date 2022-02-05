@@ -6,15 +6,19 @@ This is a project I've been wanting to put together for some time. I programmed 
 
 A tool to help braille transcribers format the Special Symbols page. 
 
-Role based access allows users to report issues or file requests to update or modify the app/database. Implements identity and role based access/rendering. 
+Identity and role based access allows users to report issues or file requests to update or modify the app and database. Admins may research the validity of database update requests and approve them. 
 
 ## WALKTHROUGH
 
-- The main feature accepts a list of ASCII braille characters and returns the list sorted in braille order
+Minimal Viable Product
+
+- An app that accepts a list of ASCII braille characters and returns the list sorted in braille order
 - API that accepts requests from the app and communicates with the database. 
-- Alert when a symbol includes a character that is not ASCII Braille
-- Alert when a symbol was not found in the database
-	- option to request the alerted symbol be added to the database
+
+Other features
+- Alert user when a symbol includes a character that is not ASCII Braille
+- Alert user when a symbol was not found in the database
+	- user may request alerted symbol be added to the database
 - Service to scrape Known Symbols from http://www.iceb.org/symbsc2.html and check it against the current database
 
 ## OPEN REQUIREMENTS
