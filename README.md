@@ -4,9 +4,9 @@ This is a project I've been wanting to put together for some time. I programmed 
 
 ![My App](./app.png)
 
-A tool to help braille transcribers format the Special Symbols page. 
+A app that helps braille transcribers format the Special Symbols page. 
 
-Identity and role based access allows users to report issues or file requests to update or modify the app and database. Admins may research the validity of database update requests and approve them. 
+Identity and role based access allows users to file requests to update or modify the special symbols database. Admins may approve or deny the request after appropriate research. 
 
 ## WALKTHROUGH
 
@@ -20,12 +20,14 @@ Other features
 - Alert user when a symbol was not found in the database
 	- user may request alerted symbol be added to the database
 - Service to scrape Known Symbols from http://www.iceb.org/symbsc2.html and check it against the current database
+- Ticket system to allow users to report bugs/errors. 
 
 ## OPEN REQUIREMENTS
 
 - user login/registration for creating/reporting issues
-- proposed modifications to application
-- assign issues to other admins for research purposes
+	- proposed modifications to application
+	- assign issues to other admins for research purposes
+- landing page will sort a pasted list of special symbols
 
 ## USER INTERFACE
 
@@ -54,6 +56,6 @@ Other features
 	- status - str
 	- date - datetime
 
-\* ASCII-braille characters in 'braille order': abcdefghijklmnopqrstuvxyz&=(!)*<%?:$]\\[w1234567890/+#>'-@^_\".;,"
+\* The 64 ASCII-braille characters in 'braille order': abcdefghijklmnopqrstuvxyz&=(!)*<%?:$]\\[w1234567890/+#>'-@^_\".;,
 
-There are currently over 510 known symbols listed in the ICEB database http://www.iceb.org/symbsc2.html
+There are currently 510 known symbols listed in the ICEB database http://www.iceb.org/symbsc2.html
