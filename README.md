@@ -48,7 +48,12 @@ Other features
 
 ## DATA DESIGN
 
+- admin - str
 - user - str
+
+- symbol - str
+- symbol name - str
+
 - issues - list<issue>
 	- priority - enum
 	- status - str
