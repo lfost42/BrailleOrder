@@ -1,10 +1,8 @@
 # BrailleSort
 
-This is a project I've been wanting to put together for some time. I programmed the sorting logic and plan to implement the below plans once I am able. 
+A app that helps braille transcribers format the Special Symbols page. Identity and role based access allows users to file requests to update or modify the special symbols database. Admins may approve or deny the request after appropriate research. 
 
 ![My App](./app.png)
-
-A app that helps braille transcribers format the Special Symbols page. Identity and role based access allows users to file requests to update or modify the special symbols database. Admins may approve or deny the request after appropriate research. 
 
 ## WALKTHROUGH
 
