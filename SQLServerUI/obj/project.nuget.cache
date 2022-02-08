@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P5Wbf1xZITwDSjUrvdw558GTov6wKgG8e4IC4Jhrgz89fkZi6vlMF/ICvm+i2mBSXrwb5dKgDLIqWVN1fRW6Dw==",
+  "dgSpecHash": "x6oIeJhhoY746rvS7m/04zPP4YY179YDTD54nkDR+KzaNZjcitL5zIujnWAEXX7wkxlhoadTBnSIpEzhG6fCpA==",
   "success": true,
-  "projectFilePath": "/Users/lynda/Desktop/repo/BrailleSort/SQLServerUI/SQLServerUI.csproj",
+  "projectFilePath": "C:\\Users\\lynda\\source\\repos\\BrailleSort\\SQLServerUI\\SQLServerUI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

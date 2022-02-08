@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Symbols]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Symbol] NCHAR(10) NOT NULL
+)

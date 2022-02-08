@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BrailleSort/1.0.0": {
+        "dependencies": {
+          "DataAccessLibrary": "1.0.0",
+          "SQLServerUI": "1.0.0"
+        },
+        "runtime": {
+          "BrailleSort.dll": {}
+        }
+      },
+      "DataAccessLibrary/1.0.0": {
+        "runtime": {
+          "DataAccessLibrary.dll": {}
+        }
+      },
+      "SQLServerUI/1.0.0": {
+        "runtime": {
+          "SQLServerUI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BrailleSort/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataAccessLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SQLServerUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

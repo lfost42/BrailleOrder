@@ -1,0 +1,16 @@
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\bin\Debug\net5.0\SQLServerUI.exe
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\bin\Debug\net5.0\SQLServerUI.deps.json
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\bin\Debug\net5.0\SQLServerUI.runtimeconfig.json
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\bin\Debug\net5.0\SQLServerUI.runtimeconfig.dev.json
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\bin\Debug\net5.0\SQLServerUI.dll
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\bin\Debug\net5.0\ref\SQLServerUI.dll
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\bin\Debug\net5.0\SQLServerUI.pdb
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\obj\Debug\net5.0\SQLServerUI.csproj.AssemblyReference.cache
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\obj\Debug\net5.0\SQLServerUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\obj\Debug\net5.0\SQLServerUI.AssemblyInfoInputs.cache
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\obj\Debug\net5.0\SQLServerUI.AssemblyInfo.cs
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\obj\Debug\net5.0\SQLServerUI.csproj.CoreCompileInputs.cache
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\obj\Debug\net5.0\SQLServerUI.dll
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\obj\Debug\net5.0\ref\SQLServerUI.dll
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\obj\Debug\net5.0\SQLServerUI.pdb
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\obj\Debug\net5.0\SQLServerUI.genruntimeconfig.cache
