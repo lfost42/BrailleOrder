@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    "net5.0": {
+      "DataAccessLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DataAccessLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccessLibrary.dll": {}
+        }
+      },
+      "SQLServerUI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/SQLServerUI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SQLServerUI.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DataAccessLibrary/1.0.0": {
+      "type": "project",
+      "path": "../DataAccessLibrary/DataAccessLibrary.csproj",
+      "msbuildProject": "../DataAccessLibrary/DataAccessLibrary.csproj"
+    },
+    "SQLServerUI/1.0.0": {
+      "type": "project",
+      "path": "../SQLServerUI/SQLServerUI.csproj",
+      "msbuildProject": "../SQLServerUI/SQLServerUI.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    "net5.0": [
+      "DataAccessLibrary >= 1.0.0",
+      "SQLServerUI >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/lynda/.nuget/packages/": {}
@@ -23,15 +58,22 @@
         "/Users/lynda/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "/Users/lynda/Desktop/repo/BrailleSort/DataAccessLibrary/DataAccessLibrary.csproj": {
+              "projectPath": "/Users/lynda/Desktop/repo/BrailleSort/DataAccessLibrary/DataAccessLibrary.csproj"
+            },
+            "/Users/lynda/Desktop/repo/BrailleSort/SQLServerUI/SQLServerUI.csproj": {
+              "projectPath": "/Users/lynda/Desktop/repo/BrailleSort/SQLServerUI/SQLServerUI.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -41,8 +83,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "imports": [
           "net461",
           "net462",

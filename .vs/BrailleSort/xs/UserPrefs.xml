@@ -1,16 +1,25 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{EB373657-577F-4959-BB28-443B9C6D9269}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SQLServerUI/Program.cs">
+    <Files>
+      <File FileName="SQLServerUI/Program.cs" Line="13" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="BrailleSort" expanded="True" selected="True" />
+          <Node name="BrailleSort" expanded="True">
+            <Node name="BrailleSort" expanded="True" />
+            <Node name="DataAccessLibrary" expanded="True" selected="True" />
+            <Node name="SQLServerUI" expanded="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BrailleSort PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.DataAccessLibrary FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.SQLServerUI FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
