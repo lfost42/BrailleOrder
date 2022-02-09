@@ -10,18 +10,13 @@ namespace SQLServerUI
     {
         static void Main(string[] args)
         {
-            SqlCrud sql = new SqlCrud(GetConnectionString());
 
             Console.ReadLine();
         }
 
         private static void ReadAllUsers(SqlCrud sql)
         {
-            var rows = sql.GetAllUsers();
-            foreach (var row in rows)
-            {
-                Console.WriteLine($"{row.Id}: {row.FirstName} {row.LastName}");
-            }
+
         }
         
         private static string GetConnectionString(string connectionStringName = "Default")
