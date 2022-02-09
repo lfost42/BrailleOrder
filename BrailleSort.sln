@@ -2,13 +2,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.810.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrailleSort", "BrailleSort\BrailleSort.csproj", "{EB373657-577F-4959-BB28-443B9C6D9269}"
-EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BrailleSortDb", "BrailleSortDb\BrailleSortDb.sqlproj", "{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLibrary", "DataAccessLibrary\DataAccessLibrary.csproj", "{F84E11CD-091B-4C30-B1C9-E163B45D3096}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLServerUI", "SQLServerUI\SQLServerUI.csproj", "{87968AD2-A9A7-462C-8ACC-B565228BFA9F}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BrailleSortDb", "BrailleSortDb\BrailleSortDb.sqlproj", "{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrailleSort", "BrailleSort\BrailleSort.csproj", "{7A9D469B-FA85-472A-8FC9-899662EACF47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,16 +16,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EB373657-577F-4959-BB28-443B9C6D9269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB373657-577F-4959-BB28-443B9C6D9269}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB373657-577F-4959-BB28-443B9C6D9269}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB373657-577F-4959-BB28-443B9C6D9269}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{F84E11CD-091B-4C30-B1C9-E163B45D3096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F84E11CD-091B-4C30-B1C9-E163B45D3096}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F84E11CD-091B-4C30-B1C9-E163B45D3096}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -34,6 +24,16 @@ Global
 		{87968AD2-A9A7-462C-8ACC-B565228BFA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87968AD2-A9A7-462C-8ACC-B565228BFA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87968AD2-A9A7-462C-8ACC-B565228BFA9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7A9D469B-FA85-472A-8FC9-899662EACF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A9D469B-FA85-472A-8FC9-899662EACF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A9D469B-FA85-472A-8FC9-899662EACF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A9D469B-FA85-472A-8FC9-899662EACF47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

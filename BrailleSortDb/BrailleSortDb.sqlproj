@@ -74,13 +74,4 @@
   <ItemGroup>
     <None Include="BrailleSortDb.publish.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DataAccessLibrary\DataAccessLibrary.csproj">
-      <Name>DataAccessLibrary</Name>
-      <Project>{f84e11cd-091b-4c30-b1c9-e163b45d3096}</Project>
-      <Private>True</Private>
-      <IsModelAware>True</IsModelAware>
-      <GenerateSqlClrDdl>True</GenerateSqlClrDdl>
-    </ProjectReference>
-  </ItemGroup>
 </Project>
