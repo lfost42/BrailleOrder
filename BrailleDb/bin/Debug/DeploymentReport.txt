@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Notes] (Table)
+       [dbo].[Roles] (Table)
+       [dbo].[SymbolNames] (Table)
+       [dbo].[Symbols] (Table)
+       [dbo].[TicketItem] (Table)
+       [dbo].[Tickets] (Table)
+       [dbo].[Users] (Table)
+
+** Supporting actions

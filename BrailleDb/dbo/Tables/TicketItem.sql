@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[TicketItem]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+	[Description] VARCHAR(50) NOT NULL, 
+	[Status] NCHAR(10) NOT NULL, 
+	[DateCreated] DATETIME2 NOT NULL
+)

@@ -14,3 +14,13 @@ C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\obj\Debug\net5.0\SQLServerUI
 C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\obj\Debug\net5.0\ref\SQLServerUI.dll
 C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\obj\Debug\net5.0\SQLServerUI.pdb
 C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\obj\Debug\net5.0\SQLServerUI.genruntimeconfig.cache
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\bin\Debug\net5.0\AppSettings.json
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\lynda\source\repos\BrailleSort\SQLServerUI\obj\Debug\net5.0\SQLServerUI.csproj.CopyComplete

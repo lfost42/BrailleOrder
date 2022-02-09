@@ -7,4 +7,32 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="FirstName" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="c09754c7-e942-4932-8dbb-6b929fc24832" ChangeDateTime="02/09/2022 03:48:03">
+    <Property Name="ElementName" Value="[dbo].[Roles].[User]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Roles]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Visitor" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="aafeec21-bd45-4dfa-a9e4-2166b0c71f85" ChangeDateTime="02/09/2022 03:51:40">
+    <Property Name="ElementName" Value="[dbo].[Tickets].[Created]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tickets]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateCreated" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8c09f681-b6a8-4512-8686-0264d34c0328" ChangeDateTime="02/09/2022 03:53:41">
+    <Property Name="ElementName" Value="[dbo].[NamesSymbol].[DateCreated]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[NamesSymbol]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SymbolCreated" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8e77606d-898a-40d8-8e88-2572cd8bd3f9" ChangeDateTime="02/09/2022 03:53:45">
+    <Property Name="ElementName" Value="[dbo].[NamesSymbol].[DateUpdated]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[NamesSymbol]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SymbolUpdated" />
+  </Operation>
 </Operations>

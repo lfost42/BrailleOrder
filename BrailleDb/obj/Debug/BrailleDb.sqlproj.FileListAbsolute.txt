@@ -1,0 +1,9 @@
+C:\Users\lynda\source\repos\BrailleSort\BrailleDb\bin\Debug\BrailleDb.dacpac
+C:\Users\lynda\source\repos\BrailleSort\BrailleDb\bin\Debug\BrailleDb.dll
+C:\Users\lynda\source\repos\BrailleSort\BrailleDb\bin\Debug\BrailleDb.pdb
+C:\Users\lynda\source\repos\BrailleSort\BrailleDb\obj\Debug\Model.xml
+C:\Users\lynda\source\repos\BrailleSort\BrailleDb\obj\Debug\refactor.xml
+C:\Users\lynda\source\repos\BrailleSort\BrailleDb\obj\Debug\postdeploy.sql
+C:\Users\lynda\source\repos\BrailleSort\BrailleDb\obj\Debug\predeploy.sql
+C:\Users\lynda\source\repos\BrailleSort\BrailleDb\obj\Debug\BrailleDb.dll
+C:\Users\lynda\source\repos\BrailleSort\BrailleDb\obj\Debug\BrailleDb.pdb
