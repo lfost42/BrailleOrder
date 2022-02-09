@@ -7,8 +7,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLibrary", "DataAccessLibrary\DataAccessLibrary.csproj", "{7A09FAA6-936F-4173-921B-4611BC24754B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLServerUI", "SQLServerUI\SQLServerUI.csproj", "{75383D18-16AF-427A-8C90-020BFBEB359B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7A09FAA6-936F-4173-921B-4611BC24754B} = {7A09FAA6-936F-4173-921B-4611BC24754B}
+	EndProjectSection
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BrailleDb", "BrailleDb\BrailleDb.sqlproj", "{D7B5362D-ED8F-444C-B380-F61B36949B5F}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BrailleSortDb", "BrailleSortDb\BrailleSortDb.sqlproj", "{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,12 +31,12 @@ Global
 		{75383D18-16AF-427A-8C90-020BFBEB359B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75383D18-16AF-427A-8C90-020BFBEB359B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75383D18-16AF-427A-8C90-020BFBEB359B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D7B5362D-ED8F-444C-B380-F61B36949B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7B5362D-ED8F-444C-B380-F61B36949B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7B5362D-ED8F-444C-B380-F61B36949B5F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{D7B5362D-ED8F-444C-B380-F61B36949B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7B5362D-ED8F-444C-B380-F61B36949B5F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D7B5362D-ED8F-444C-B380-F61B36949B5F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9B515A-855B-4CBA-8B80-EE0B2DD6B401}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

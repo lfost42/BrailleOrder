@@ -243,27 +243,18 @@ IF fulltextserviceproperty(N'IsFulltextInstalled') = 1
 
 
 GO
-PRINT N'Creating Table [dbo].[NamesSymbol]...';
-
-
-GO
-CREATE TABLE [dbo].[NamesSymbol] (
-    [Id]           INT        IDENTITY (1, 1) NOT NULL,
-    [SymbolId]     INT        NOT NULL,
-    [SymbolNameId] NCHAR (10) NOT NULL,
-    PRIMARY KEY CLUSTERED ([Id] ASC)
-);
-
-
-GO
 PRINT N'Creating Table [dbo].[Notes]...';
 
 
 GO
 CREATE TABLE [dbo].[Notes] (
-    [Id]       INT           IDENTITY (1, 1) NOT NULL,
-    [Note]     VARCHAR (256) NOT NULL,
-    [TicketId] INT           NOT NULL,
+    [Id]              INT           IDENTITY (1, 1) NOT NULL,
+    [Note]            VARCHAR (256) NOT NULL,
+    [TicketId]        INT           NOT NULL,
+    [NoteCreated]     DATETIME2 (7) NOT NULL,
+    [NoteUpdated]     DATETIME2 (7) NOT NULL,
+    [UserCreatedId]   INT           NOT NULL,
+    [AdminAssignedId] INT           NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
@@ -274,22 +265,8 @@ PRINT N'Creating Table [dbo].[Roles]...';
 
 GO
 CREATE TABLE [dbo].[Roles] (
-    [Id]    INT IDENTITY (1, 1) NOT NULL,
-    [User]  BIT NULL,
-    [Admin] BIT NULL,
-    [Owner] BIT NULL,
-    PRIMARY KEY CLUSTERED ([Id] ASC)
-);
-
-
-GO
-PRINT N'Creating Table [dbo].[SymbolNames]...';
-
-
-GO
-CREATE TABLE [dbo].[SymbolNames] (
-    [Id]         INT          IDENTITY (1, 1) NOT NULL,
-    [SymbolName] VARCHAR (50) NOT NULL,
+    [Id]       INT          IDENTITY (1, 1) NOT NULL,
+    [RoleName] VARCHAR (10) NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
@@ -300,8 +277,35 @@ PRINT N'Creating Table [dbo].[Symbols]...';
 
 GO
 CREATE TABLE [dbo].[Symbols] (
-    [Id]     INT        IDENTITY (1, 1) NOT NULL,
-    [Symbol] NCHAR (10) NOT NULL,
+    [Id]     INT          IDENTITY (1, 1) NOT NULL,
+    [Symbol] VARCHAR (20) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+
+GO
+PRINT N'Creating Table [dbo].[SymbolUnits]...';
+
+
+GO
+CREATE TABLE [dbo].[SymbolUnits] (
+    [Id]         INT          IDENTITY (1, 1) NOT NULL,
+    [SymbolName] VARCHAR (50) NOT NULL,
+    [SymbolId]   INT          NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+
+GO
+PRINT N'Creating Table [dbo].[TicketItem]...';
+
+
+GO
+CREATE TABLE [dbo].[TicketItem] (
+    [Id]          INT           IDENTITY (1, 1) NOT NULL,
+    [Description] VARCHAR (50)  NOT NULL,
+    [Status]      NCHAR (10)    NOT NULL,
+    [DateCreated] DATETIME2 (7) NOT NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
@@ -312,32 +316,19 @@ PRINT N'Creating Table [dbo].[Tickets]...';
 
 GO
 CREATE TABLE [dbo].[Tickets] (
-    [Id]          INT          IDENTITY (1, 1) NOT NULL,
-    [Description] VARCHAR (50) NOT NULL,
-    [Status]      NCHAR (10)   NOT NULL,
+    [Id]          INT           IDENTITY (1, 1) NOT NULL,
+    [TicketId]    INT           NOT NULL,
+    [DateCreated] DATETIME2 (7) NOT NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
 
 GO
-PRINT N'Creating Table [dbo].[TrackedTickets]...';
+PRINT N'Creating Table [dbo].[Users]...';
 
 
 GO
-CREATE TABLE [dbo].[TrackedTickets] (
-    [Id]       INT IDENTITY (1, 1) NOT NULL,
-    [UserId]   INT NOT NULL,
-    [TicketId] INT NOT NULL,
-    PRIMARY KEY CLUSTERED ([Id] ASC)
-);
-
-
-GO
-PRINT N'Creating Table [dbo].[Visitors]...';
-
-
-GO
-CREATE TABLE [dbo].[Visitors] (
+CREATE TABLE [dbo].[Users] (
     [Id]        INT          IDENTITY (1, 1) NOT NULL,
     [FirstName] VARCHAR (50) NOT NULL,
     [LastName]  VARCHAR (50) NOT NULL,
@@ -355,8 +346,16 @@ BEGIN
     EXEC sp_addextendedproperty N'microsoft_database_tools_support', N'refactoring log', N'schema', N'dbo', N'table', N'__RefactorLog'
 END
 GO
-IF NOT EXISTS (SELECT OperationKey FROM [dbo].[__RefactorLog] WHERE OperationKey = '28b654d2-6797-4e5e-9568-cc183fe4b179')
-INSERT INTO [dbo].[__RefactorLog] (OperationKey) values ('28b654d2-6797-4e5e-9568-cc183fe4b179')
+IF NOT EXISTS (SELECT OperationKey FROM [dbo].[__RefactorLog] WHERE OperationKey = '16771b10-6e69-4021-8410-14a0080f4f74')
+INSERT INTO [dbo].[__RefactorLog] (OperationKey) values ('16771b10-6e69-4021-8410-14a0080f4f74')
+IF NOT EXISTS (SELECT OperationKey FROM [dbo].[__RefactorLog] WHERE OperationKey = '1c4aeafd-60c9-4e34-80f0-30bc59ce1b90')
+INSERT INTO [dbo].[__RefactorLog] (OperationKey) values ('1c4aeafd-60c9-4e34-80f0-30bc59ce1b90')
+IF NOT EXISTS (SELECT OperationKey FROM [dbo].[__RefactorLog] WHERE OperationKey = '9399fb5b-28bd-4141-a161-db7bcb0198a5')
+INSERT INTO [dbo].[__RefactorLog] (OperationKey) values ('9399fb5b-28bd-4141-a161-db7bcb0198a5')
+IF NOT EXISTS (SELECT OperationKey FROM [dbo].[__RefactorLog] WHERE OperationKey = 'e625ec10-f669-46fe-8142-bc053afe254b')
+INSERT INTO [dbo].[__RefactorLog] (OperationKey) values ('e625ec10-f669-46fe-8142-bc053afe254b')
+IF NOT EXISTS (SELECT OperationKey FROM [dbo].[__RefactorLog] WHERE OperationKey = 'a14a4a44-29be-4199-a9f0-c109552b61f2')
+INSERT INTO [dbo].[__RefactorLog] (OperationKey) values ('a14a4a44-29be-4199-a9f0-c109552b61f2')
 
 GO
 

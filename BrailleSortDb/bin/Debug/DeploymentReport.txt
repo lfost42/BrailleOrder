@@ -10,13 +10,12 @@
 
 ** User actions
      Create
-       [dbo].[NamesSymbol] (Table)
        [dbo].[Notes] (Table)
        [dbo].[Roles] (Table)
-       [dbo].[SymbolNames] (Table)
        [dbo].[Symbols] (Table)
+       [dbo].[SymbolUnits] (Table)
+       [dbo].[TicketItem] (Table)
        [dbo].[Tickets] (Table)
-       [dbo].[TrackedTickets] (Table)
-       [dbo].[Visitors] (Table)
+       [dbo].[Users] (Table)
 
 ** Supporting actions

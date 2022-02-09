@@ -152,7 +152,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\lynda\\source\\repos\\BrailleSort\\DataAccessLibrary\\DataAccessLibrary.csproj": {
+                "projectPath": "C:\\Users\\lynda\\source\\repos\\BrailleSort\\DataAccessLibrary\\DataAccessLibrary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

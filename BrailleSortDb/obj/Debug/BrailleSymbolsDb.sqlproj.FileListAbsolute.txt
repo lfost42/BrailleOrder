@@ -1,5 +1,0 @@
-C:\Users\lynda\source\repos\BrailleSort\BrailleSortDb\bin\Debug\BrailleSymbolsDb.dacpac
-C:\Users\lynda\source\repos\BrailleSort\BrailleSortDb\bin\Debug\BrailleSortDb.dll
-C:\Users\lynda\source\repos\BrailleSort\BrailleSortDb\bin\Debug\BrailleSortDb.pdb
-C:\Users\lynda\source\repos\BrailleSort\BrailleSortDb\obj\Debug\BrailleSortDb.dll
-C:\Users\lynda\source\repos\BrailleSort\BrailleSortDb\obj\Debug\BrailleSortDb.pdb

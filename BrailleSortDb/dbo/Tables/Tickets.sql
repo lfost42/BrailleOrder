@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Tickets]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[TicketId] INT NOT NULL, 
+	[DateCreated] DATETIME2 NOT NULL,
+)
