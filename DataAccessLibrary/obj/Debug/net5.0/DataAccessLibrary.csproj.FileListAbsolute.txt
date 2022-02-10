@@ -9,3 +9,4 @@ C:\Users\lynda\source\repos\BrailleSort\DataAccessLibrary\obj\Debug\net5.0\DataA
 C:\Users\lynda\source\repos\BrailleSort\DataAccessLibrary\obj\Debug\net5.0\DataAccessLibrary.dll
 C:\Users\lynda\source\repos\BrailleSort\DataAccessLibrary\obj\Debug\net5.0\ref\DataAccessLibrary.dll
 C:\Users\lynda\source\repos\BrailleSort\DataAccessLibrary\obj\Debug\net5.0\DataAccessLibrary.pdb
+C:\Users\lynda\source\repos\BrailleSort\DataAccessLibrary\obj\Debug\net5.0\DataAccessLibrary.csproj.AssemblyReference.cache

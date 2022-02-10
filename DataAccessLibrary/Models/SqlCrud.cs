@@ -15,12 +15,12 @@ namespace DataAccessLibrary
         public SqlCrud(string connectionString)
         {
             _connectionString = connectionString;
-
         }
 
         public List<BasicUserModel> GetAllUsers()
         {
             string sql = "select Id, FirstName, LastName from dbo.Users";
+
             return db.LoadData<BasicUserModel, dynamic>(sql, new { }, _connectionString);
         }
     }
