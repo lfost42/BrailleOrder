@@ -10,7 +10,7 @@ namespace SQLServerUI
     {
         static void Main(string[] args)
         {
-            SqlCrud sql = new SqlCrud(GetConnectionString());
+            UserControl sql = new UserControl(GetConnectionString());
             
             ReadAllUsers(sql);
 
@@ -19,7 +19,7 @@ namespace SQLServerUI
             Console.ReadLine();
         }
 
-        private static void ReadAllUsers(SqlCrud sql)
+        private static void ReadAllUsers(UserControl sql)
         {
             var rows = sql.GetAllUsers();
 
