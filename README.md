@@ -8,32 +8,41 @@ A app that helps braille transcribers format the Special Symbols page. Identity 
 
 Minimal Viable Product
 
-- An app that accepts a list of ASCII braille characters and returns the list sorted in braille order
+- A web app that accepts a list of ASCII braille characters and returns the list sorted in braille order
 - API accepts requests from the app and communicates with the database. 
 
-Other features
+Other planned features
 - Alert user when a symbol includes a character that is not ASCII Braille
 - Alert user when a symbol was not found in the database
 	- user may request alerted symbol be added to the database
 - Service to scrape Known Symbols from http://www.iceb.org/symbsc2.html and check it against the current database
-- Ticket system to allow users to report bugs/errors. 
+- implement role based access
+- ticket system to allow users to report bugs/errors and admins to assign/solve them 
 
 ## OPEN REQUIREMENTS
 
+MVP:
+- landing page will sort a pasted list of special symbols
+
+Other planned features:
+- app alerts user when symbol includes a character that is not ASCII braille
+- app alerts user when a symbol is not found in the database
+	- user files ticket to add symbol to database
 - user login/registration for creating/reporting issues
 	- proposed modifications to application
 	- assign issues to other admins for research purposes
-- landing page will sort a pasted list of special symbols
 
 ## USER INTERFACE
 
+MVP:
 - Landing page
-- Login option
-- Search Symbols
 - Area to paste a list of special symbols for sort
 - Sort button
-- Option to export a csv of the symbols database
 
+Other features:
+- Login option
+- Search Symbols
+- Option to export a csv of the symbols database
 - profile management
 - role management
 - issue management
@@ -47,7 +56,8 @@ Other features
 ## DATA DESIGN
 
 - admin - str
-- user - str
+- visitor - str
+- owner - str
 
 - symbol - str
 - symbol name - str
