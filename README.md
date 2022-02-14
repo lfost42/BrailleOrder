@@ -52,10 +52,17 @@ Other features
 - symbol - str
 - symbol name - str
 
-- issues - list<issue>
+- ticket - list<issue>
 	- priority - enum
+	- type - str
 	- status - str
 	- date - datetime
+
+- notes
+	- note - str
+	- ticket id
+	- date created - datetime
+	- date updated - datetime
 
 \* The 64 ASCII-braille characters in 'braille order': abcdefghijklmnopqrstuvxyz&=(!)*<%?:$]\\[w1234567890/+#>'-@^_\".;,
 
