@@ -1,6 +1,6 @@
 # BrailleSort
 
-A app that helps braille transcribers format the Special Symbols page. Identity and role based access allows users to file requests to update or modify the special symbols database. Admins may approve or deny the request after appropriate research. 
+A app that helps braille transcribers format the Special Symbols page. Identity and role based access allows users to file requests to update or modify the special symbols database. Admins may resolve the request after appropriate research. 
 
 ![My App](./app.png)
 
@@ -65,7 +65,7 @@ Other features:
 - ticket - list<issue>
 	- priority - enum
 	- type - str
-	- status - str
+	- StatusClosed - bit
 	- date - datetime
 
 - notes
