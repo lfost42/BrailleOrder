@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using BrailleSortLibrary.Model;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -23,8 +24,11 @@ namespace BrailleSortLibrary.Models
         [Display(Name = "Name")]
         public string FullName => $"{FirstName} {LastName}";
 
-        public int RoleId { get; set; }
-        public int ChangeId { get; set; }
+        [Display(Name = "Tickets")]
+        public virtual ICollection<TicketModel> TicketModels { get; set; } = new HashSet<TicketModel>();
+
+        [Display(Name = "Changes")]
+        public virtual ICollection<ChangeModel> ChangeModels { get; set; } = new HashSet<ChangeModel>();
 
     }
 }
