@@ -7409,13 +7409,17 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "BrailleSortLibrary >= 1.0.0",
+      "Dapper >= 2.0.123",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.14",
+      "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.14",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.14",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 5.0.14",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.14",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.14",
-      "Microsoft.Extensions.Configuration.Json >= 5.0.0"
+      "Microsoft.Extensions.Configuration.Json >= 5.0.0",
+      "Microsoft.VisualStudio.Web.CodeGeneration.Contracts >= 5.0.2",
+      "System.Data.SqlClient >= 4.8.3"
     ]
   },
   "packageFolders": {
@@ -7461,9 +7465,17 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.0.123, )"
+          },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
             "version": "[5.0.14, )"
+          },
+          "Microsoft.AspNetCore.Identity": {
+            "target": "Package",
+            "version": "[2.2.0, )"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
@@ -7488,6 +7500,14 @@
           "Microsoft.Extensions.Configuration.Json": {
             "target": "Package",
             "version": "[5.0.0, )"
+          },
+          "Microsoft.VisualStudio.Web.CodeGeneration.Contracts": {
+            "target": "Package",
+            "version": "[5.0.2, )"
+          },
+          "System.Data.SqlClient": {
+            "target": "Package",
+            "version": "[4.8.3, )"
           }
         },
         "imports": [
