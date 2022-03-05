@@ -1,9 +1,0 @@
-C:\Users\lynda\source\repos\BrailleSort\BrailleSorterDb\bin\Debug\BrailleSortDb.dacpac
-C:\Users\lynda\source\repos\BrailleSort\BrailleSorterDb\bin\Debug\BrailleSorterDb.dll
-C:\Users\lynda\source\repos\BrailleSort\BrailleSorterDb\bin\Debug\BrailleSorterDb.pdb
-C:\Users\lynda\source\repos\BrailleSort\BrailleSorterDb\obj\Debug\Model.xml
-C:\Users\lynda\source\repos\BrailleSort\BrailleSorterDb\obj\Debug\refactor.xml
-C:\Users\lynda\source\repos\BrailleSort\BrailleSorterDb\obj\Debug\postdeploy.sql
-C:\Users\lynda\source\repos\BrailleSort\BrailleSorterDb\obj\Debug\predeploy.sql
-C:\Users\lynda\source\repos\BrailleSort\BrailleSorterDb\obj\Debug\BrailleSorterDb.dll
-C:\Users\lynda\source\repos\BrailleSort\BrailleSorterDb\obj\Debug\BrailleSorterDb.pdb

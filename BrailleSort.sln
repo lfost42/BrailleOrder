@@ -8,7 +8,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLServerUI", "SQLServerUI\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrailleSort", "BrailleSort\BrailleSort.csproj", "{7A9D469B-FA85-472A-8FC9-899662EACF47}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BrailleSortDb", "BrailleSorterDb\BrailleSortDb.sqlproj", "{52141FFA-A0A6-4F30-AADA-3BB7AF696D6D}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BrailleSortDb", "BrailleSortDb\BrailleSortDb.sqlproj", "{DF526457-634C-4747-9E8A-F85813B00A7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,12 +28,12 @@ Global
 		{7A9D469B-FA85-472A-8FC9-899662EACF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A9D469B-FA85-472A-8FC9-899662EACF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A9D469B-FA85-472A-8FC9-899662EACF47}.Release|Any CPU.Build.0 = Release|Any CPU
-		{52141FFA-A0A6-4F30-AADA-3BB7AF696D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52141FFA-A0A6-4F30-AADA-3BB7AF696D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52141FFA-A0A6-4F30-AADA-3BB7AF696D6D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{52141FFA-A0A6-4F30-AADA-3BB7AF696D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52141FFA-A0A6-4F30-AADA-3BB7AF696D6D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{52141FFA-A0A6-4F30-AADA-3BB7AF696D6D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DF526457-634C-4747-9E8A-F85813B00A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF526457-634C-4747-9E8A-F85813B00A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF526457-634C-4747-9E8A-F85813B00A7A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DF526457-634C-4747-9E8A-F85813B00A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF526457-634C-4747-9E8A-F85813B00A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF526457-634C-4747-9E8A-F85813B00A7A}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

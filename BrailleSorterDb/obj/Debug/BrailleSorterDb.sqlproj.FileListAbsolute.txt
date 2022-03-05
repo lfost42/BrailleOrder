@@ -1,6 +1,0 @@
-C:\Users\lynda\source\repos\BrailleSort\BrailleSorterDb\bin\Debug\BrailleSorterDb.dacpac
-C:\Users\lynda\source\repos\BrailleSort\BrailleSorterDb\bin\Debug\BrailleSorterDb.dll
-C:\Users\lynda\source\repos\BrailleSort\BrailleSorterDb\bin\Debug\BrailleSorterDb.pdb
-C:\Users\lynda\source\repos\BrailleSort\BrailleSorterDb\obj\Debug\BrailleSorterDb.dll
-C:\Users\lynda\source\repos\BrailleSort\BrailleSorterDb\obj\Debug\BrailleSorterDb.pdb
-C:\Users\lynda\source\repos\BrailleSort\BrailleSorterDb\obj\Debug\BrailleSorterDb.sqlproj.AssemblyReference.cache

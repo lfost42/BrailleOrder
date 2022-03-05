@@ -20,3 +20,4 @@ C:\Users\lynda\source\repos\BrailleSort\BrailleSortLibrary\obj\Debug\net5.0\Brai
 C:\Users\lynda\source\repos\BrailleSort\BrailleSortLibrary\obj\Debug\net5.0\BrailleSortLibrary.dll
 C:\Users\lynda\source\repos\BrailleSort\BrailleSortLibrary\obj\Debug\net5.0\ref\BrailleSortLibrary.dll
 C:\Users\lynda\source\repos\BrailleSort\BrailleSortLibrary\obj\Debug\net5.0\BrailleSortLibrary.pdb
+C:\Users\lynda\source\repos\BrailleSort\BrailleSortLibrary\obj\Debug\net5.0\BrailleSortLibrary.csproj.AssemblyReference.cache

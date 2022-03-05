@@ -11,5 +11,6 @@ namespace BrailleSortLibrary.Models
         public int Id { get; set; }
         public int SymbolId { get; set; }
         public string SymbolName { get; set; }
+        public int ChangeId { get; set; }
     }
 }
