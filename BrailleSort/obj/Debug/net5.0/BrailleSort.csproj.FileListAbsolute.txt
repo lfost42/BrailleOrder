@@ -5,6 +5,7 @@ C:\Users\lynda\source\repos\BrailleSort\BrailleSort\bin\Debug\net5.0\BrailleSort
 C:\Users\lynda\source\repos\BrailleSort\BrailleSort\bin\Debug\net5.0\BrailleSort.dll
 C:\Users\lynda\source\repos\BrailleSort\BrailleSort\bin\Debug\net5.0\ref\BrailleSort.dll
 C:\Users\lynda\source\repos\BrailleSort\BrailleSort\bin\Debug\net5.0\BrailleSort.pdb
+C:\Users\lynda\source\repos\BrailleSort\BrailleSort\obj\Debug\net5.0\BrailleSort.csproj.AssemblyReference.cache
 C:\Users\lynda\source\repos\BrailleSort\BrailleSort\obj\Debug\net5.0\BrailleSort.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\lynda\source\repos\BrailleSort\BrailleSort\obj\Debug\net5.0\BrailleSort.AssemblyInfoInputs.cache
 C:\Users\lynda\source\repos\BrailleSort\BrailleSort\obj\Debug\net5.0\BrailleSort.AssemblyInfo.cs
