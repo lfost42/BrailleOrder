@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.810.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLibrary", "DataAccessLibrary\DataAccessLibrary.csproj", "{F84E11CD-091B-4C30-B1C9-E163B45D3096}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrailleSortLibrary", "BrailleSortLibrary\BrailleSortLibrary.csproj", "{F84E11CD-091B-4C30-B1C9-E163B45D3096}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLServerUI", "SQLServerUI\SQLServerUI.csproj", "{87968AD2-A9A7-462C-8ACC-B565228BFA9F}"
 EndProject

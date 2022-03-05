@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "SQLServerUI/1.0.0": {
         "dependencies": {
-          "DataAccessLibrary": "1.0.0",
+          "BrailleSortLibrary": "1.0.0",
           "Microsoft.Extensions.Configuration.Json": "5.0.0"
         },
         "runtime": {
@@ -190,13 +190,13 @@
         }
       },
       "System.Security.Principal.Windows/4.7.0": {},
-      "DataAccessLibrary/1.0.0": {
+      "BrailleSortLibrary/1.0.0": {
         "dependencies": {
           "Dapper": "2.0.123",
           "System.Data.SqlClient": "4.8.3"
         },
         "runtime": {
-          "DataAccessLibrary.dll": {}
+          "BrailleSortLibrary.dll": {}
         }
       }
     }
@@ -333,7 +333,7 @@
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
     },
-    "DataAccessLibrary/1.0.0": {
+    "BrailleSortLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

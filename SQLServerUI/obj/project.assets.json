@@ -240,7 +240,7 @@
           }
         }
       },
-      "DataAccessLibrary/1.0.0": {
+      "BrailleSortLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -248,10 +248,10 @@
           "System.Data.SqlClient": "4.8.3"
         },
         "compile": {
-          "bin/placeholder/DataAccessLibrary.dll": {}
+          "bin/placeholder/BrailleSortLibrary.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DataAccessLibrary.dll": {}
+          "bin/placeholder/BrailleSortLibrary.dll": {}
         }
       }
     }
@@ -752,15 +752,15 @@
         "version.txt"
       ]
     },
-    "DataAccessLibrary/1.0.0": {
+    "BrailleSortLibrary/1.0.0": {
       "type": "project",
-      "path": "../DataAccessLibrary/DataAccessLibrary.csproj",
-      "msbuildProject": "../DataAccessLibrary/DataAccessLibrary.csproj"
+      "path": "../BrailleSortLibrary/BrailleSortLibrary.csproj",
+      "msbuildProject": "../BrailleSortLibrary/BrailleSortLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "DataAccessLibrary >= 1.0.0",
+      "BrailleSortLibrary >= 1.0.0",
       "Microsoft.Extensions.Configuration.Json >= 5.0.0"
     ]
   },
@@ -791,8 +791,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\lynda\\source\\repos\\BrailleSort\\DataAccessLibrary\\DataAccessLibrary.csproj": {
-              "projectPath": "C:\\Users\\lynda\\source\\repos\\BrailleSort\\DataAccessLibrary\\DataAccessLibrary.csproj"
+            "C:\\Users\\lynda\\source\\repos\\BrailleSort\\BrailleSortLibrary\\BrailleSortLibrary.csproj": {
+              "projectPath": "C:\\Users\\lynda\\source\\repos\\BrailleSort\\BrailleSortLibrary\\BrailleSortLibrary.csproj"
             }
           }
         }

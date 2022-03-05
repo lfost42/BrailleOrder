@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System;
 using System.IO;
-using DataAccessLibrary;
-using DataAccessLibrary.Models;
+using BrailleSortLibrary;
+using BrailleSortLibrary.Models;
 
 namespace SQLServerUI
 {
