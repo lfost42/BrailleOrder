@@ -10,11 +10,10 @@ namespace BrailleSortLibrary.Models
     public class SymbolModel
     {
         public int Id { get; set; }
-        public string Symbol { get; set; }
+        public string SymbolName { get; set; }
 
-        [Display(Name = "Symbol Names")]
-        public virtual ICollection<SymbolUnitModel> SymbolUnitModels { get; set; } = new HashSet<SymbolUnitModel>();
-        
+        public int AsciiModel { get; set; }
+
         [Display(Name = "Changes")]
         public virtual ICollection<ChangeModel> ChangeModels { get; set; } = new HashSet<ChangeModel>();
     }

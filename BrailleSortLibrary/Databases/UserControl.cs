@@ -23,5 +23,12 @@ namespace BrailleSortLibrary
 
             return db.LoadData<UserModel, dynamic>(sql, new { }, _connectionString);
         }
+
+        //Create user
+        //Read user
+        //Update User
+            //create change record
+
+        //Delete User
     }
 }
