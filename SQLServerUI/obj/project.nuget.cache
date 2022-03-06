@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "S4Rl7m74l2QfRJJjEH2/QQMQop/TxIPNJfz18zJjjM/DsC1KMc1+vF/OPTVkDLEFnfEwel7NUA5XnXANQWyZSg==",
+  "dgSpecHash": "0sNFtoDVbHsh2Kcydl8/vRb1Q7JbfB5xZDLYUhUPZo9DNQWopBgXKpqZ6NYl9DlUtcGd/829jLZ2HwUxRZUpmw==",
   "success": true,
   "projectFilePath": "C:\\Users\\lynda\\source\\repos\\BrailleSort\\SQLServerUI\\SQLServerUI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\lynda\\.nuget\\packages\\brutal.dev.strongnamesigner\\3.1.0\\brutal.dev.strongnamesigner.3.1.0.nupkg.sha512",
     "C:\\Users\\lynda\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\lynda\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\lynda\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\5.0.14\\microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.14.nupkg.sha512",

@@ -2,12 +2,6 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Brutal.Dev.StrongNameSigner/3.1.0": {
-        "type": "package",
-        "build": {
-          "build/Brutal.Dev.StrongNameSigner.targets": {}
-        }
-      },
       "Dapper/2.0.123": {
         "type": "package",
         "compile": {
@@ -2110,26 +2104,6 @@
     }
   },
   "libraries": {
-    "Brutal.Dev.StrongNameSigner/3.1.0": {
-      "sha512": "mhkUZwouO1lj2SOz36OrHCIcMMgbEXqoCv9UYcGMdFXSmHIie0HMyHhf+3PxpuQk0lj8vX1kP+SV3G02sS6J6w==",
-      "type": "package",
-      "path": "brutal.dev.strongnamesigner/3.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "brutal.dev.strongnamesigner.3.1.0.nupkg.sha512",
-        "brutal.dev.strongnamesigner.nuspec",
-        "build/Brutal.Dev.StrongNameSigner.dll",
-        "build/Brutal.Dev.StrongNameSigner.targets",
-        "build/Mono.Cecil.Mdb.dll",
-        "build/Mono.Cecil.Pdb.dll",
-        "build/Mono.Cecil.Rocks.dll",
-        "build/Mono.Cecil.dll",
-        "build/PowerArgs.dll",
-        "build/StrongNameSigner.Console.exe",
-        "build/StrongNameSigner.Console.exe.config"
-      ]
-    },
     "Dapper/2.0.123": {
       "sha512": "RDFF4rBLLmbpi6pwkY7q/M6UXHRJEOerplDGE5jwEkP/JGJnBauAClYavNKJPW1yOTWRPIyfj4is3EaJxQXILQ==",
       "type": "package",
@@ -7164,7 +7138,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Brutal.Dev.StrongNameSigner >= 3.1.0",
       "Dapper >= 2.0.123",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.14",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
@@ -7210,10 +7183,6 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "Brutal.Dev.StrongNameSigner": {
-            "target": "Package",
-            "version": "[3.1.0, )"
-          },
           "Dapper": {
             "target": "Package",
             "version": "[2.0.123, )"

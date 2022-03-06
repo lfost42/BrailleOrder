@@ -15,7 +15,6 @@
           "SQLServerUI.dll": {}
         }
       },
-      "Brutal.Dev.StrongNameSigner/3.1.0": {},
       "Dapper/2.0.123": {
         "runtime": {
           "lib/net5.0/Dapper.dll": {
@@ -1406,7 +1405,6 @@
       },
       "BrailleSortLibrary/1.0.0": {
         "dependencies": {
-          "Brutal.Dev.StrongNameSigner": "3.1.0",
           "Dapper": "2.0.123",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.14",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
@@ -1423,13 +1421,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "Brutal.Dev.StrongNameSigner/3.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-mhkUZwouO1lj2SOz36OrHCIcMMgbEXqoCv9UYcGMdFXSmHIie0HMyHhf+3PxpuQk0lj8vX1kP+SV3G02sS6J6w==",
-      "path": "brutal.dev.strongnamesigner/3.1.0",
-      "hashPath": "brutal.dev.strongnamesigner.3.1.0.nupkg.sha512"
     },
     "Dapper/2.0.123": {
       "type": "package",

@@ -1,4 +1,5 @@
 ﻿using System;
+using BrailleSortLibrary.Models;
 using BrailleSortUI.Data;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
