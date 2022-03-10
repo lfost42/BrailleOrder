@@ -10,7 +10,6 @@ namespace BrailleSortLibrary.Models
     {
         public int Id { get; set; }
 
-        public string UserModelId { get; set; }
         public UserModel UserModel { get; set; }
     }
 }

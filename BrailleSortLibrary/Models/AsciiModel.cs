@@ -10,7 +10,11 @@ namespace BrailleSortLibrary.Models
     public class AsciiModel
     {
         public int Id { get; set; }
+
+        [StringLength(10, ErrorMessage = "The {0} must be atleast {2} and at most {1} characters.", MinimumLength = 3)]
         public string Symbol { get; set; }
+
+        //Navigation
 
         [Display(Name = "Symbol Names")]
         public virtual ICollection<SymbolModel> SymbolModels { get; set; } = new HashSet<SymbolModel>();

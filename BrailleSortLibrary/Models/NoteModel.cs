@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BrailleSortLibrary.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -9,10 +10,15 @@ namespace BrailleSortLibrary.Models
 {
     public class NoteModel
     {
+
         public int Id { get; set; }
+
         public string NoteTitle { get; set; }
 
         public string Description { get; set; }
+
+
+        //Navigation
 
         public int AuthorId { get; set; }
 

@@ -24,6 +24,8 @@ namespace BrailleSortLibrary.Models
         [Display(Name = "Name")]
         public string FullName => $"{FirstName} {LastName}";
 
+        
+        //Navigation
         [Display(Name = "Tickets")]
         public virtual ICollection<TicketModel> TicketModels { get; set; } = new HashSet<TicketModel>();
 

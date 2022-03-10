@@ -13,6 +13,8 @@ namespace BrailleSortLibrary.Model
         public int Id { get; set; }
         public string Ticket { get; set; }
 
+        //Navigation
+
         public int? ChangeModelId { get; set; }
 
         [Display(Name = "Notes")]
