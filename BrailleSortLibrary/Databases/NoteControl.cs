@@ -19,7 +19,7 @@ namespace BrailleSortLibrary.Databases
 
         public List<NoteModel> GetAllNotes()
         {
-            string sql = "select Id, Note, TicketId, CreatedId, AssignedId, NoteCreated, NoteUpdated, ChangeId from dbo.Notes";
+            string sql = "select Id, Note, NoteCreated, from dbo.Notes";
 
             return db.LoadData<NoteModel, dynamic>(sql, new { }, _connectionString);
         }

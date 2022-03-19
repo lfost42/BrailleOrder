@@ -19,7 +19,7 @@ namespace BrailleSortLibrary.Databases
 
         public List<AsciiModel> GetAllAscii()
         {
-            string sql = "select Id, Symbol, ChangeId from dbo.Symbol";
+            string sql = "select Id, Symbol from dbo.Ascii";
             return db.LoadData<AsciiModel, dynamic>(sql, new { }, _connectionString);
         }
 

@@ -19,7 +19,7 @@ namespace BrailleSortLibrary.Databases
 
         public List<TicketModel> GetAllTickets()
         {
-            string sql = "select Id, TicketName, StatusClosed, TicketCreated, TicketUpdated, ChangeId from dbo.Tickets";
+            string sql = "select Id, TicketSubject, StatusClosed, TicketCreated, TicketUpdated from dbo.Tickets";
 
             return db.LoadData<TicketModel, dynamic>(sql, new { }, _connectionString);
         }

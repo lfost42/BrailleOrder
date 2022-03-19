@@ -19,7 +19,7 @@ namespace BrailleSortLibrary.Databases
 
         public List<SymbolModel> GettAllSymbols()
         {
-            string sql = "select Id, SymbolName, SymbolId, ChangeId from dbo.Symbols";
+            string sql = "select Id, SymbolName from dbo.Symbols";
             return db.LoadData<SymbolModel, dynamic>(sql, new { }, _connectionString);
         }
 

@@ -4,3 +4,7 @@ C:\Users\lynda\source\repos\BrailleSort\BrailleSortDb\bin\Debug\BrailleSortDb.pd
 C:\Users\lynda\source\repos\BrailleSort\BrailleSortDb\obj\Debug\BrailleSortDb.sqlproj.AssemblyReference.cache
 C:\Users\lynda\source\repos\BrailleSort\BrailleSortDb\obj\Debug\BrailleSortDb.dll
 C:\Users\lynda\source\repos\BrailleSort\BrailleSortDb\obj\Debug\BrailleSortDb.pdb
+C:\Users\lynda\source\repos\BrailleSort\BrailleSortDb\obj\Debug\Model.xml
+C:\Users\lynda\source\repos\BrailleSort\BrailleSortDb\obj\Debug\refactor.xml
+C:\Users\lynda\source\repos\BrailleSort\BrailleSortDb\obj\Debug\postdeploy.sql
+C:\Users\lynda\source\repos\BrailleSort\BrailleSortDb\obj\Debug\predeploy.sql

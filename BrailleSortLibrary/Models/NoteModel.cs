@@ -20,7 +20,7 @@ namespace BrailleSortLibrary.Models
 
         //Navigation
 
-        public int AuthorId { get; set; }
+        public int CreatorId { get; set; }
 
         public int TicketId { get; set; }
 

@@ -1,0 +1,28 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Ascii] (Table)
+       [dbo].[AsciiSymbols] (Table)
+       [dbo].[Changes] (Table)
+       [dbo].[Notes] (Table)
+       [dbo].[Symbols] (Table)
+       [dbo].[TicketNotes] (Table)
+       [dbo].[Tickets] (Table)
+       [dbo].[Users] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Tickets] (Default Constraint)
+       [dbo].[FK_AsciiSymbols_Ascii] (Foreign Key)
+       [dbo].[FK_AsciiSymbols_Symbols] (Foreign Key)
+       [dbo].[FK_TicketNotes_Tickets] (Foreign Key)
+       [dbo].[FK_TicketNotes_Notes] (Foreign Key)
+       [dbo].[FK_Users_Changes] (Foreign Key)
+
+** Supporting actions
