@@ -69,8 +69,6 @@
     <Build Include="dbo\Tables\Changes.sql" />
     <Build Include="dbo\Tables\AsciiSymbols.sql" />
     <Build Include="dbo\Tables\TicketNotes.sql" />
-    <Build Include="dbo\Tables\Creators.sql" />
-    <Build Include="dbo\Tables\Assigned.sql" />
     <Build Include="dbo\Tables\AspNetUserTokens.sql" />
     <Build Include="dbo\Tables\AspNetRoleClaims.sql" />
     <Build Include="dbo\Tables\AspNetRoles.sql" />
