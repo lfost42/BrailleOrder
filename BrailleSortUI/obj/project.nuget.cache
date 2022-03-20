@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "emW0F4pgmYDJNSoYMEmRChEwctL8tBkzZQEI4LcBXNSMj/l1YP/Gl+i7VPCQ6Y8FiNxAwmiLQmJB91iuE8PE0g==",
+  "dgSpecHash": "zx/qQRIX0e4j92k3IK/ZThLIh0c7Sd1smYKQaA3wfcOfeduOtTwKMYYUx6H1tARtZRXLqzqGSyN+urRWajhJYQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\lynda\\source\\repos\\BrailleSort\\BrailleSortUI\\BrailleSortUI.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,7 @@
     "C:\\Users\\lynda\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.14\\microsoft.entityframeworkcore.tools.5.0.14.nupkg.sha512",
     "C:\\Users\\lynda\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\lynda\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
+    "C:\\Users\\lynda\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\lynda\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\lynda\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
     "C:\\Users\\lynda\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",

@@ -19,7 +19,7 @@ namespace BrailleSortLibrary
 
         public List<UserModel> GetAllUsers()
         {
-            string sql = "select Id, FirstName, LastName from dbo.Users";
+            string sql = "select Id, FirstName, LastName from dbo.AspNetUsers";
 
             return db.LoadData<UserModel, dynamic>(sql, new { }, _connectionString);
         }

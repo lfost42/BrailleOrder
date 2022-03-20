@@ -1,0 +1,41 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Creators]
+       [dbo].[TicketNotes]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[TicketNotes].[AssignedId] on table [dbo].[TicketNotes] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+
+** User actions
+     Table rebuild
+       [dbo].[Creators] (Table)
+       [dbo].[TicketNotes] (Table)
+     Create
+       [dbo].[Assigned] (Table)
+       [dbo].[FK_Creators_Users] (Foreign Key)
+       [dbo].[FK_TicketNotes_Assigned] (Foreign Key)
+       [dbo].[FK_Assigned_Users] (Foreign Key)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_AsciiSymbols_Creators] (Foreign Key)
+       [dbo].[FK_TicketNotes_Creators] (Foreign Key)
+       [dbo].[FK_TicketNotes_Tickets] (Foreign Key)
+       [dbo].[FK_TicketNotes_Notes] (Foreign Key)
+       [dbo].[FK_TicketNotes_Changes] (Foreign Key)
+     Create
+       [dbo].[FK_AsciiSymbols_Creators] (Foreign Key)
+       [dbo].[FK_TicketNotes_Creators] (Foreign Key)
+       [dbo].[FK_TicketNotes_Tickets] (Foreign Key)
+       [dbo].[FK_TicketNotes_Notes] (Foreign Key)
+       [dbo].[FK_TicketNotes_Changes] (Foreign Key)
+
+The column UserId on table [dbo].[Creators] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[TicketNotes].[AssignedId] on table [dbo].[TicketNotes] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+
