@@ -1,6 +1,6 @@
 # BrailleSort
 
-Arranges ASCII-Braille symbols into braille order for the transcription of the Special Symbols Page as required by the Braille Authority of North America.
+Formats ASCII-Braille symbols into braille order for proper transcription of the Special Symbols Page as required by the Braille Authority of North America.
 
 ![My App](./app.png)
 
