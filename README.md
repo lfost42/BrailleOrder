@@ -1,6 +1,6 @@
 # BrailleSort
 
-A app that helps braille transcribers format the Special Symbols page. Identity and role based access allows users to file requests to update or modify the special symbols database. Admins may resolve the request after appropriate research. 
+Arranges ASCII-Braille symbols into braille order for the transcription of the Special Symbols Page as required by the Braille Authority of North America.
 
 ![My App](./app.png)
 
