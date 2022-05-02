@@ -1,25 +1,26 @@
-﻿<Properties StartupConfiguration="{EB373657-577F-4959-BB28-443B9C6D9269}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SQLServerUI/Program.cs">
-    <Files>
-      <File FileName="SQLServerUI/Program.cs" Line="13" Column="1" />
-    </Files>
+﻿<Properties StartupConfiguration="{4196F6E3-1EB7-483E-8D7D-A306013ED1D4}|Default">
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BrailleSort" expanded="True">
-            <Node name="BrailleSort" expanded="True" />
-            <Node name="DataAccessLibrary" expanded="True" selected="True" />
-            <Node name="SQLServerUI" expanded="True" />
+            <Node name="BrailleSort" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Areas" expanded="True" />
+            </Node>
+            <Node name="BrailleSort.Data" expanded="True">
+              <Node name="Models" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.BrailleSort PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.BrailleSort PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.ItemProperties.DataAccessLibrary FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.SQLServerUI FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.SQLServerUI FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

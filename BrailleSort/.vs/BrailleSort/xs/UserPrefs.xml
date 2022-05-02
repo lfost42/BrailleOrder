@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{9FCBED10-05B0-49C5-8C7E-70C8A3734D3D}|Default">
+﻿<Properties StartupConfiguration="{C73B28AE-1931-4433-9353-5FA2FC498D44}|BrailleSortUI">
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +10,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.BrailleSort PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.BrailleSort PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

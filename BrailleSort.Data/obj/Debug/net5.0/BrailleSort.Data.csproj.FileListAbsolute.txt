@@ -1,0 +1,15 @@
+/Users/lynda/Desktop/repo/BrailleSort/BrailleSort.Data/bin/Debug/net5.0/BrailleSort.Data.deps.json
+/Users/lynda/Desktop/repo/BrailleSort/BrailleSort.Data/bin/Debug/net5.0/BrailleSort.Data.runtimeconfig.json
+/Users/lynda/Desktop/repo/BrailleSort/BrailleSort.Data/bin/Debug/net5.0/BrailleSort.Data.runtimeconfig.dev.json
+/Users/lynda/Desktop/repo/BrailleSort/BrailleSort.Data/bin/Debug/net5.0/BrailleSort.Data.dll
+/Users/lynda/Desktop/repo/BrailleSort/BrailleSort.Data/bin/Debug/net5.0/ref/BrailleSort.Data.dll
+/Users/lynda/Desktop/repo/BrailleSort/BrailleSort.Data/bin/Debug/net5.0/BrailleSort.Data.pdb
+/Users/lynda/Desktop/repo/BrailleSort/BrailleSort.Data/obj/Debug/net5.0/BrailleSort.Data.csproj.AssemblyReference.cache
+/Users/lynda/Desktop/repo/BrailleSort/BrailleSort.Data/obj/Debug/net5.0/BrailleSort.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lynda/Desktop/repo/BrailleSort/BrailleSort.Data/obj/Debug/net5.0/BrailleSort.Data.AssemblyInfoInputs.cache
+/Users/lynda/Desktop/repo/BrailleSort/BrailleSort.Data/obj/Debug/net5.0/BrailleSort.Data.AssemblyInfo.cs
+/Users/lynda/Desktop/repo/BrailleSort/BrailleSort.Data/obj/Debug/net5.0/BrailleSort.Data.csproj.CoreCompileInputs.cache
+/Users/lynda/Desktop/repo/BrailleSort/BrailleSort.Data/obj/Debug/net5.0/BrailleSort.Data.dll
+/Users/lynda/Desktop/repo/BrailleSort/BrailleSort.Data/obj/Debug/net5.0/ref/BrailleSort.Data.dll
+/Users/lynda/Desktop/repo/BrailleSort/BrailleSort.Data/obj/Debug/net5.0/BrailleSort.Data.pdb
+/Users/lynda/Desktop/repo/BrailleSort/BrailleSort.Data/obj/Debug/net5.0/BrailleSort.Data.genruntimeconfig.cache
