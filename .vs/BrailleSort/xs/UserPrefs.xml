@@ -1,5 +1,8 @@
 ﻿<Properties StartupConfiguration="{4196F6E3-1EB7-483E-8D7D-A306013ED1D4}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="BrailleSort/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="BrailleSort/Views/Shared/_Layout.cshtml" Line="14" Column="163" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -7,9 +10,11 @@
             <Node name="BrailleSort" expanded="True">
               <Node name="Dependencies" expanded="True" />
               <Node name="Areas" expanded="True" />
-            </Node>
-            <Node name="BrailleSort.Data" expanded="True">
-              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>

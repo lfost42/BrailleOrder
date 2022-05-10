@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fod2biNLU80FvchcPJZe5ZF0dtOLioI04/qGp9AU2OohMWqVUqluOC54VwAE6kPSwm7MgumFRujjy8gIdB0kIw==",
+  "dgSpecHash": "GGzXCFVYXPyHmGdVrh2EngFTnifQY5nhGobmztFgZNkJLOiMY2j1sWBGAcPDP8Lt3yLx2lGigXr/Ui285upxgQ==",
   "success": true,
-  "projectFilePath": "/Users/lynda/Desktop/repo/BrailleSort/BrailleSort/BrailleSort.csproj",
+  "projectFilePath": "/Users/lynda/Desktop/repo/BrailleSort/BrailleSort.CLI/BrailleSort.CLI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
