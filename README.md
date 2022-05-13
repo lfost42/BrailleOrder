@@ -9,7 +9,8 @@ Formats ASCII-Braille symbols into braille order for proper transcription of the
 Minimal Viable Product
 
 - A web app that accepts a list of ASCII braille characters and returns the list sorted in braille order
-- API accepts requests from the app and communicates with the database. 
+- API accepts requests from the app to access the database.
+- Role based authentication restricts updating the database to admins only. 
 
 Other planned features
 - Alert user when a symbol includes a character that is not ASCII Braille
