@@ -35,7 +35,7 @@ using BrailleSort.Areas.Identity.Pages;
 #nullable disable
 #nullable restore
 #line 5 "/Users/lynda/Desktop/repo/BrailleSort/BrailleSort/Areas/Identity/Pages/_ViewImports.cshtml"
-using BrailleSort.Data.Models;
+using BrailleSymbols.Data.Models;
 
 #line default
 #line hidden
@@ -48,7 +48,7 @@ using BrailleSort.Areas.Identity.Pages.Account;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f0777872b9ce78f7b6d3c93e5abfb33c74fd771f", @"/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c7929a9bf5459b04d70299b1a0487cc97257454d", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"33362fb9fde46a8969a2100c01d7dba637287c16", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e612d05f125404d64ffa6affcfb76318f5d77bc2", @"/Areas/Identity/Pages/Account/_ViewImports.cshtml")]
     public class Areas_Identity_Pages_Account_ResetPasswordConfirmation : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
@@ -94,7 +94,7 @@ Write(ViewData["Title"]);
 #line hidden
 #nullable disable
             WriteLiteral("</h1>\n<p>\n    Your password has been reset. Please ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f0777872b9ce78f7b6d3c93e5abfb33c74fd771f4900", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f0777872b9ce78f7b6d3c93e5abfb33c74fd771f4903", async() => {
                 WriteLiteral("click here to log in");
             }
             );

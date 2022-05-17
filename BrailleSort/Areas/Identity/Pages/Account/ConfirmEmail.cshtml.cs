@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
-using BrailleSort.Data.Models;
+using BrailleSymbols.Data.Models;
 
 namespace BrailleSort.Areas.Identity.Pages.Account
 {

@@ -1,5 +1,0 @@
-﻿CREATE TABLE [dbo].[Symbols]
-(
-	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
-	[SymbolName] VARCHAR(50) NOT NULL 
-)

@@ -1,4 +1,4 @@
-﻿using BrailleSort.Data.Models;
+﻿using BrailleSymbols.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

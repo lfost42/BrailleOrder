@@ -1,5 +1,0 @@
-﻿CREATE TABLE [dbo].[Ascii]
-(
-	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
-	[Symbol] VARCHAR(20) NOT NULL
-)

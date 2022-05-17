@@ -1,4 +1,4 @@
-﻿using BrailleSort.Data.Models;
+﻿using BrailleSymbols.Data.Models;
 using BrailleSort.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -13,6 +13,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BrailleSymbols.Data.Data;
 
 namespace BrailleSort
 {
@@ -29,7 +30,7 @@ namespace BrailleSort
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
+                options.UseNpgsql(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 

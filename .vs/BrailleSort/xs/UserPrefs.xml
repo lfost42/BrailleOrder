@@ -1,13 +1,22 @@
 ﻿<Properties StartupConfiguration="{4196F6E3-1EB7-483E-8D7D-A306013ED1D4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BrailleSort/Views/Shared/_Layout.cshtml">
-    <Files>
-      <File FileName="BrailleSort/Views/Shared/_Layout.cshtml" Line="14" Column="163" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BrailleSort" expanded="True">
-            <Node name="BrailleSort.CLI" selected="True" />
+            <Node name="BrailleSort" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Identity" expanded="True">
+                  <Node name="Pages" expanded="True">
+                    <Node name="_ViewImports.cshtml" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+            <Node name="BrailleSymbols.Data" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -15,7 +24,6 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BrailleSort PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.ItemProperties.DataAccessLibrary FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.BrailleSymbols.API FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.SQLServerUI FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />

@@ -6,19 +6,21 @@ Formats ASCII-Braille symbols into braille order for proper transcription of the
 
 ## WALKTHROUGH
 
-Minimal Viable Product
+Minimal Viable Product:
+- Consumes BrailleSymbolsAPI to access a database of special symbols.
+- Consumes FosterPi API to allow authenticated admins to perform CRUD operations on the Special Symbols database. 
 
-- A web app that accepts a list of ASCII braille characters and returns the list sorted in braille order
-- API accepts requests from the app to access the database.
-- Role based authentication restricts updating the database to admins only. 
+Other Planned Features:
+- Ability to search for symbols.
+- Ability to select a symbol and add it to a list that is sorted into ASCII-braille order. 
+- Add 'dot locator' and special symbol description (for formatting of the Braille Special Symbols page)
 
-Other planned features
-- Alert user when a symbol includes a character that is not ASCII Braille
+Sort a pasted list into ASCII-braille order
+- Alert user when a symbol includes a character that is not ASCII-braille
 - Alert user when a symbol was not found in the database
 	- user may request alerted symbol be added to the database
-- Service to scrape Known Symbols from http://www.iceb.org/symbsc2.html and check it against the current database
-- implement role based access
-- ticket system to allow users to report bugs/errors and admins to assign/solve them 
+
+- Issue System allows users to report bugs/errors and admins to assign/solve them 
 
 ## OPEN REQUIREMENTS
 
