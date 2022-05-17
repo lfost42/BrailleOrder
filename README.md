@@ -7,7 +7,7 @@ Formats ASCII-Braille symbols into braille order for proper transcription of the
 ## WALKTHROUGH
 
 Minimal Viable Product:
-- Consumes BrailleSymbolsAPI to access a database of special symbols.
+- Consumes BrailleSymbolsAPI for access to the special symbols database - https://github.com/lfost42/BrailleSymbols
 - Consumes FosterPi API to allow authenticated admins to perform CRUD operations on the Special Symbols database. 
 
 Other Planned Features:
