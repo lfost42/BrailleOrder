@@ -7,8 +7,8 @@ Formats ASCII-Braille symbols into braille order for proper transcription of the
 ## WALKTHROUGH
 
 Minimal Viable Product:
-- Consumes BrailleSymbolsAPI for access to the special symbols database - https://github.com/lfost42/BrailleSymbols
-- Consumes FosterPi API to allow authenticated admins to perform CRUD operations on the Special Symbols database. 
+- [BrailleSymbolsAPI](https://github.com/lfost42/BrailleSymbols) allows admins to maintain the special symbols database and users to query it.
+- IssueTrackingAPI allows users to report errors/discrepancies in the database or suggest app changes.
 
 Other Planned Features:
 - Ability to search for symbols.
@@ -19,15 +19,12 @@ Sort a pasted list into ASCII-braille order
 - Alert user when a symbol includes a character that is not ASCII-braille
 - Alert user when a symbol was not found in the database
 	- user may request alerted symbol be added to the database
-
 - Issue System allows users to report bugs/errors and admins to assign/solve them 
 
 ## OPEN REQUIREMENTS
 
-MVP:
-- landing page will sort a pasted list of special symbols
-
-Other planned features:
+- landing page will allow users to query the special symbols database
+- options to build the special symbols page or sort a list of symbols
 - app alerts user when symbol includes a character that is not ASCII braille
 - app alerts user when a symbol is not found in the database
 	- user files ticket to add symbol to database
@@ -58,18 +55,22 @@ Other features:
 
 ## DATA DESIGN
 
+### BrailleSymbolsAPI
+- symbol - str
+- symbol name - str
+
+### FosterPI (Authentication API)
 - admin - str
 - visitor - str
 - owner - str
 
-- symbol - str
-- symbol name - str
-
-- ticket - list<issue>
+### IssueTrackerAPI
+- ticket - list<notes>
 	- priority - enum
 	- type - str
-	- StatusClosed - bit
-	- date - datetime
+	- Date Created - datetime
+	- IsClosed - boolean
+	- Date Closed - datetime
 
 - notes
 	- note - str
